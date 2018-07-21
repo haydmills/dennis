@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <title>Dennis - Starter Framework</title>
+  <link rel="shortcut icon" href="img/face.jpg">
+  
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hamburgler.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"> </script>
+  <script src="js/hamburgler.js"> </script> 
+  
+</head>
+<body class="wrap wider">
+
+<!-- THIS IS THE MENU --> 
+
+<div class="mobilenav"> 
+  <li><a href="#">Typography</a></li> 
+  <li><a href="#">Buttons</a></li> 
+  <li><a href="#">Navigation</a></li> 
+  <li><a href="#">Images</a></li> 
+  <li><a href="#">Embeds</a></li>
+  <li><a href="#">Icons</a></li> 
+  <li><a href="#">Slider</a></li> 
+  <li><a href="#">Layouts</a></li> 
+  <li><a href="#">Animations</a></li> 
+</div> 
+
+<!-- THIS IS THE ICON --> 
+
+<a href="javascript:void(0)" class="icon">
+   <div class="hamburger"> 
+     <div class="menui top-menu"></div> 
+     <div class="menui mid-menu"></div> 
+     <div class="menui bottom-menu"></div> 
+   </div> 
+</a>
+
+  <header>
+    <div class="grid">
+      <div class="unit whole center-on-mobiles">
+        <h1>Dennis</h1>
+        <p>Dennis was created in order to help web development at Mills Digital. It’s goal is to provide a basic framework for designers and developers to easily get up and running. It’s much like a bootstrap or foundation but less bulky and sexier. </p>
+		<br></br>
+		<form method="get" action="dennis.zip">
+			<a href="dennis.zip" class="button-square">Download</a>
+		</form>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="grid">
+	<h1>[] Typography</h1>
+	<hr></hr>
+      <div class="unit one-third">
+        <h1>Heading (h1)</h1>
+		<h2>Heading (h2)</h2>
+		<h3>Heading (h3)</h3>
+		<h4>Heading (h4)</h4>
+		<h5>Heading (h5)</h5>
+		<h6>Heading (h6)</h6>
+      </div>
+      <div class="unit one-third">
+        <p>This is some paragraph text. For headings the color is set to #222 and for paragraphs the default color is set to #444. The default text size for paragraphs is set to 18px. When using text its important to follow typhography best practices such as making sure text is readable and easy to identify.</p>
+      </div>
+      <div class="unit one-third">
+        <blockquote>This is a blockquote.</blockquote>
+		<p><i>Here is something that is italicized.</i></p>
+		<p><u>Here is something that is underlined.</u></p>
+      </div>
+    </div>
+	<div class="grid">
+      <div class="unit one-third">
+        <ul>
+			<li>This</li>
+			<li>Is a</li>
+			<li>Unordered list</li>
+		</ul>
+      </div>
+      <div class="unit one-third">
+        <ol>
+			<li>This</li>
+			<li>Is a</li>
+			<li>Ordered list</li>
+		</ol>
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Buttons</h1>
+	<hr></hr>
+      <div class="unit one-third">
+		<a href="" class="button-square">Square</a>
+		<a href="" class="button-round">Round</a>
+		<a href="" class="button-oval">Oval</a>
+      </div>
+      <div class="unit one-third">
+		<a href="">This is a link</a>
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+	<div class="grid">
+      <div class="unit one-third">
+<pre><code>
+.button-square{
+  border-radius: 2px;
+  background:rgba(0,0,0,0);
+  border: 3px solid #000;
+  padding: 8px 16px;
+  color: #000;
+  margin-top:0px;
+}
+.button-square:hover, .button-square:focus{
+	background: #000;
+	color: #fff;
+}
+.button-round{
+  border-radius: 10px;
+  background:#fff;
+  border: 3px solid #000;
+  padding: 8px 16px;
+  color: #000;
+  margin-top:0px;
+}
+.button-round:hover, .button-round:focus{
+	background: #000;
+	color: #fff;
+}
+.button-oval{
+  border-radius: 100px;
+  background:#fff;
+  border: 3px solid #000;
+  padding: 8px 16px;
+  color: #000;
+  margin-top:0px;
+}
+.button-oval:hover, .button-oval:focus{
+	background: #000;
+	color: #fff;
+}
+</code></pre>
+      </div>
+      <div class="unit one-third">
+		
+      </div>
+      <div class="unit one-third">
+      
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Navigation</h1>
+	<hr></hr>
+      <div class="unit one-third">
+		<ul>
+			<li><a href="">Navbar Dropdown</a></li>
+			<li><a href="">Fullscreen Overlay</a></li>
+			<li><a href="">Slide Out</a></li>
+		</ul>
+      </div>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Images</h1>
+	<hr></hr>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Embeds</h1>
+	<hr></hr>
+      <div class="unit one-third">
+		<div class="embed">
+			<iframe src='http://www.youtube.com/embed/QILiHiTD3uc' frameborder='0' allowfullscreen></iframe>
+		</div>
+      </div>
+      <div class="unit one-third">
+		<div class="embed">
+			<iframe src='http://player.vimeo.com/video/66140585' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</div>
+      </div>
+      <div class="unit one-third">
+        <div class="embed">
+			<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387144.0075834208!2d-73.97800349999999!3d40.7056308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2sus!4v1394298866288' width='600' height='450' frameborder='0' style='border:0'></iframe>
+		</div>
+      </div>
+    </div>
+	<div class="grid">
+      <div class="unit one-third">
+<pre><code>.embed { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+	height: auto; 
+} 
+.embed iframe, .embed object, .embed embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+</code></pre>
+      </div>
+      <div class="unit one-third">
+		
+      </div>
+      <div class="unit one-third">
+      
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Icons</h1>
+	<hr></hr>
+	<p>Dennis uses Font Awesome icons. To view all the font icons available and their CSS names click <a href="http://fortawesome.github.io/Font-Awesome/icons/">here</a>.</p>
+      <div class="unit one-third">
+	  <i class="fa fa-wifi"></i>
+	  <i class="fa fa-wifi"></i>
+      </div>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Slider</h1>
+	<hr></hr>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Layouts</h1>
+	<hr></hr>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Form</h1>
+	<hr></hr>
+      <div class="unit full">
+		<form action="" method="post" class="form">
+    <h1>Contact Form 
+        <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <label>
+        <span>Your Name :</span>
+        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+    </label>
+    
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+    <label>
+        <span>Message :</span>
+        <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+    </label> 
+     <label>
+        <span>Subject :</span><select name="selection">
+        <option value="Job Inquiry">Job Inquiry</option>
+        <option value="General Question">General Question</option>
+        </select>
+    </label>    
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" class="button" value="Send" /> 
+    </label>    
+</form>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="grid">
+	<h1>[] Tables</h1>
+	<hr></hr>
+      <div class="unit full">
+		<table>
+		  <tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Year</th>
+			<th>Date</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Year</th>
+			<th>Date</th>
+		  </tr>
+		  <tr>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+		  </tr>
+		  <tr>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+			<td>Text</td>
+		  </tr>
+		</table>
+      </div>
+    </div>
+	<div class="grid">
+      <div class="unit one-third">
+<pre><code>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+}
+td,th {
+    border: 1px solid #ddd;
+    padding: 12px; 20px;
+}
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+}
+</code></pre>
+      </div>
+      <div class="unit one-third">
+	  
+      </div>
+      <div class="unit one-third">
+        
+      </div>
+    </div>
+  </section>
+
+  
+
+  <footer>
+    <div class="grid">
+      <div class="unit half">
+        <div class="center-on-mobiles">
+          <p>© Mills Digital — All rights reserved.</p>
+        </div>
+      </div>
+      <div class="unit half">
+        <div class="align-right center-on-mobiles">
+		  <img src="img/logo.jpg">
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
